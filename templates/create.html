@@ -1,0 +1,17 @@
+<form action="createdo.php" method="POST">
+    <h3>Your key is valid but a ladder hasn't been created yet. Create one below!</h3>
+    <input type="text" name="username1" pattern="[A-Za-z0-9\-\_\s]{3,16}" placeholder="Your username" > <br>
+    <input type="text" name="username2" pattern="[A-Za-z0-9\-\_\s]{3,16}" placeholder="Competitor 1" > <br>
+    <input type="text" name="username3" pattern="[A-Za-z0-9\-\_\s]{3,16}" placeholder="Competitor 2" > <br>
+    <input type="text" name="username4" pattern="[A-Za-z0-9\-\_\s]{3,16}" placeholder="Competitor 3" > <br>
+    <input type="text" name="username5" pattern="[A-Za-z0-9\-\_\s]{3,16}" placeholder="Competitor 4" > <br>
+    <input type="text" name="ladderkey" value="<?php echo $_GET['ladderkey'] ?>" hidden>
+    <select name="mode" id="">
+    	<option value="0">Standard</option>
+    	<option value="1">Taiko</option>
+    	<option value="2">Catch the Beat</option>
+    	<option value="3">Mania</option>
+    </select> <br>
+    <input type="submit" value="Create ladder">
+    <h4>Click the button <em>once</em>. It might take a while</h4>
+</form>

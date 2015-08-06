@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	color: #444;
+	background: #f1f1f1;
+	font-family: 'Open Sans';
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+	font-size: 1.4em;
+	text-align: center;
+	height: 100%;
+}
+
+.head {
+	height: 128px;
+	margin-top: 15px;
+}
+
+.body {
+	text-align: justify;
+	background: #fff;
+	max-width: 850px;
+	min-height: 120px;
+	margin: 35px auto 0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+
+}
+
+.body a {
+	color: blue;
+}
+
+
+input, select {
+	margin-top: 15px;
+}
+
+input[type="text"] {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+input[type="submit"] {
+	margin-bottom: 5px;
+}
+
+.bottom {
+	padding-top: 5px;
+	color: #fff;
+	background: #333;
+	max-width: 850px;
+	margin: auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+
+}
+
+a, a:hover {
+	color: #f55;
+}
+
+.flag {
+	width: 16px;
+	height: 11px;
+}
+
+form {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.goback {
+	margin: 7px;
+}
+
+th {
+	width: 135px;
+	padding: 5px;
+	background: #ccc;
+}
+
+td {
+	padding: 5px;
+}
+
+
+.thslim {
+	width: 40px !important;
+}
+
+table {
+	background: #FFF;
+}
+
+#the-table {
+	float: none;
+	margin: auto;
+	margin-top: 75px;
+}
